@@ -1,0 +1,109 @@
+
+.hero-section {
+  background-color: #2A2A2A;
+  color: white;
+  padding: 88px 0 0;
+  position: relative;
+  // overflow: hidden;
+  // height: 744px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 120px;
+    // padding: 0 20px;
+    // height: 100%;
+  }
+  // .hero {
+  //   width: 96%;
+  //   display: flex;
+  //   justify-content: space-between;
+  //   align-items: flex-end;
+  // }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 56px;
+    width: 44%;
+
+    h1 {
+      font-size: 25px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      line-height: 40px;
+      word-wrap: break-word;
+      color: white;
+      margin: 0;
+    }
+
+    p {
+      color: #C4C4C4;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500;
+      word-wrap: break-word;
+      margin: 0;
+      margin-top: 8px;
+    }
+
+    .discover-more-button {
+      padding: 20px 40px;
+      background: linear-gradient(127deg, #60BBEE 0%, #0A72AD 100%);
+      box-shadow: 0px 10px 15px rgba(1, 115, 153, 0.20);
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .stats {
+      display: flex;
+      gap: 96px;
+      margin-top: 40px; /* Adjust as needed */
+
+      .stat-item {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .stat-number {
+          color: white;
+          font-size: 36px;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 700;
+
+          span {
+            color: #2387C0;
+          }
+        }
+
+        .stat-text {
+          color: #C4C4C4;
+          font-size: 18px;
+          font-family: 'Poppins', sans-serif;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+
+  .hero-image {
+    width: 60%;
+    width: 60%;
+    height: 620px;
+    background-image: url(../../../public/assets/hero.png); /* Placeholder image */
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+
