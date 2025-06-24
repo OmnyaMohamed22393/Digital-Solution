@@ -18,14 +18,21 @@
       font-size: 28px;
       font-weight: 600;
       margin-bottom: 10px;
+      align-self: start;
+      margin-left: 135px;
       color: #333;
+      span img {
+        margin-bottom: -5px;
+      }
     }
 
     p {
       font-size: 16px;
       color: #666;
       margin-bottom: 30px;
-      text-align: center;
+      // text-align: center;
+      align-self: start;
+      margin-left: 135px;
 
       &.signup-link {
         margin-top: 20px;
@@ -77,7 +84,7 @@
       }
 
       .sign-in-button {
-        width: 100%;
+        width: 106%;
         padding: 15px;
         background-color: #0A72AD;
         color: white;
